@@ -43,13 +43,13 @@ namespace LogicalProblems
                         MonthlyPayment Pay = new MonthlyPayment();
                         Pay.Payment();
                         break;
-                    //case 8:
-                    //    VendingMachine Ven = new VendingMachine();
-                    //    Ven.Machine();
-                    //    break;
+                    case 8:
+                        VendingMachine Ven = new VendingMachine();
+                        Ven.Machine();
+                        break;
                     default:
-                        Console.WriteLine("Enter Proper Option To Execute");
-                        Console.WriteLine("Choose Number Between 1-9");
+                        Console.WriteLine("Enter Proper Option To Execute : ");
+                        Console.WriteLine("Choose Number Between 1-8");
                         break;
                 }
             }
