@@ -8,7 +8,7 @@ namespace LogicalProblems
         {
             Console.WriteLine("Welcome to Logical Problems");
             bool end = true;
-            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Vending Machine\n");
+            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Vending Machine\n9. Coupan Number");
             while (end == true)
             {
                 Console.WriteLine("Take an option to execute");
@@ -47,9 +47,13 @@ namespace LogicalProblems
                         VendingMachine Ven = new VendingMachine();
                         Ven.Machine();
                         break;
+                    case 9:
+                        CoupanNumber num = new CoupanNumber();
+                        num.Coupan();
+                        break;
                     default:
-                        Console.WriteLine("Enter Proper Option To Execute : ");
-                        Console.WriteLine("Choose Number Between 1-8");
+                        Console.WriteLine("Enter Proper Option To Execute: ");
+                        Console.WriteLine("Choose Number Between 1-10");
                         break;
                 }
             }
