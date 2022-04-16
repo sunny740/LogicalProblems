@@ -27,10 +27,10 @@ namespace LogicalProblems
                         PrimeNumbers Number = new PrimeNumbers();
                         Number.Prime();
                         break;
-                    //case 4:
-                    //    ReverseNumber Rvs = new ReverseNumber();
-                    //    Rvs.Reverse();
-                    //    break;
+                    case 4:
+                        ReverseNumber Rvs = new ReverseNumber();
+                        Rvs.Reverse();
+                        break;
                     //case 5:
                     //    DayOfWeek Day = new DayOfWeek();
                     //    Day.Week();
