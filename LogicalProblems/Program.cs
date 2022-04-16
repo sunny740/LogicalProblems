@@ -19,10 +19,10 @@ namespace LogicalProblems
                         FibonacciSeries flip = new FibonacciSeries();
                         flip.Fibonacci();
                         break;
-                    //case 2:
-                    //    PerfectNumber per = new PerfectNumber();
-                    //    per.Number();
-                    //    break;
+                    case 2:
+                        PerfectNumber per = new PerfectNumber();
+                        per.Number();
+                        break;
                     //case 3:
                     //    PrimeNumbers Number = new PrimeNumbers();
                     //    Number.Prime();
