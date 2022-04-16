@@ -35,10 +35,10 @@ namespace LogicalProblems
                         DayOfWeek Day = new DayOfWeek();
                         Day.Week();
                         break;
-                    //case 6:
-                    //    Tempreture TEMP = new Tempreture();
-                    //    TEMP.Temp();
-                    //    break;
+                    case 6:
+                        Tempreture TEMP = new Tempreture();
+                        TEMP.Temp();
+                        break;
                     //case 7:
                     //    MonthlyPayment Pay = new MonthlyPayment();
                     //    Pay.Payment();
