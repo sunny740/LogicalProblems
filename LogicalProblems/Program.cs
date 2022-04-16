@@ -8,7 +8,7 @@ namespace LogicalProblems
         {
             Console.WriteLine("Welcome to Logical Problems");
             bool end = true;
-            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Vending Machine\n9. Coupan Number\n10. Square Root");
+            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Vending Machine\n9. Coupan Number\n10. Square Root\n11. Stop Watch");
             while (end == true)
             {
                 Console.WriteLine("Take an option to execute");
@@ -55,9 +55,13 @@ namespace LogicalProblems
                         SqaureRoot Sqrt = new SqaureRoot();
                         Sqrt.Sqaure();
                         break;
+                    case 11:
+                        StopWatchProgram stop = new StopWatchProgram();
+                        stop.Watch();
+                        break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute: ");
-                        Console.WriteLine("Choose Number Between 1-10");
+                        Console.WriteLine("Choose Number Between 1-11");
                         break;
                 }
             }
