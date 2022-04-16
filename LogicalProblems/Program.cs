@@ -8,7 +8,7 @@ namespace LogicalProblems
         {
             Console.WriteLine("Welcome to Logical Problems");
             bool end = true;
-            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Monthly Payment2\n9. Vending Machine\n");
+            Console.WriteLine("1. Fibonacci Series\n2. Perfect Numbers\n3. Prime Number\n4. Reverse Numbers\n5. Day Of Week\n6. Tempreture\n7. Monthly Payment\n8. Vending Machine\n");
             while (end == true)
             {
                 Console.WriteLine("Take an option to execute");
@@ -39,15 +39,11 @@ namespace LogicalProblems
                         Tempreture TEMP = new Tempreture();
                         TEMP.Temp();
                         break;
-                    //case 7:
-                    //    MonthlyPayment Pay = new MonthlyPayment();
-                    //    Pay.Payment();
-                    //    break;
+                    case 7:
+                        MonthlyPayment Pay = new MonthlyPayment();
+                        Pay.Payment();
+                        break;
                     //case 8:
-                    //    MonthlyPayment PAy = new MonthlyPayment();
-                    //    PAy.Payment();
-                    //    break;
-                    //case 9:
                     //    VendingMachine Ven = new VendingMachine();
                     //    Ven.Machine();
                     //    break;
