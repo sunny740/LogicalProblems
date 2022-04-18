@@ -12,7 +12,7 @@ namespace LogicalProblems
         {
             Console.WriteLine("Enter your Month b/w 1 to 12: ");
             int m = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter your Date from 1 to 31 : ");
+            Console.WriteLine("Enter your Day from 1 to 7 : ");
             int d = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter your Year in 4 digits : ");
             int y = Convert.ToInt32(Console.ReadLine());
@@ -25,27 +25,27 @@ namespace LogicalProblems
 
             switch (d0)
             {
-                case 1:
-                    Console.WriteLine("Monday");
+                case 0:
+                    Console.WriteLine("Sunday"); 
                     break;
 
+                case 1:
+                    Console.WriteLine("Monday"); 
+                    break;
                 case 2:
-                    Console.WriteLine("Tuesday");
+                    Console.WriteLine("Tuesday"); 
                     break;
                 case 3:
-                    Console.WriteLine("Wednesday");
+                    Console.WriteLine("Wednesday"); 
                     break;
                 case 4:
-                    Console.WriteLine("Thursday");
+                    Console.WriteLine("Thursday"); 
                     break;
                 case 5:
-                    Console.WriteLine("Friday");
+                    Console.WriteLine("Friday"); 
                     break;
                 case 6:
-                    Console.WriteLine("Saturday");
-                    break;
-                case 7:
-                    Console.WriteLine("Sunday");
+                    Console.WriteLine("Saturday"); 
                     break;
 
                 default:
